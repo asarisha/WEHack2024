@@ -1,0 +1,151 @@
+:: StoryTitle
+WEHACK 
+
+
+:: StoryData
+{
+  "ifid": "67806FB7-6CD5-434A-84D9-C2F1CB4136D6",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: CSMC {"position":"700,675","size":"100,100"}
+(link: "About Computer Science Mentor Center")[(goto-url: 'https://csmc.utdallas.edu/')]
+
+
+:: Comet Cruiser {"position":"1400,925","size":"100,100"}
+(link: "Comet Cruiser")[(goto-url: 'https://services.utdallas.edu/transit/cruiser/')]
+
+
+:: Contact Financial Aid {"position":"1250,725","size":"100,100"}
+(link: "Contact Financial Aid")[(goto-url: 'https://finaid.utdallas.edu/contact/')]
+
+
+:: Counseling {"position":"975,550","size":"100,100"}
+UTD takes the mental health of students seriously. 
+
+(link: "Proceed to Student Counseling Center?")[(goto-url: 'https://counseling.utdallas.edu/')]
+
+
+:: Financial Aid {"position":"1125,550","size":"100,100"}
+(align:"=><=")+(box:"X=")[Sure! What would you like to know about financial aid?]
+
+[[Forms]]
+
+[[Contact Financial Aid]]
+
+
+:: Find Study Room Locations {"position":"1525,925","size":"100,100"}
+[[Library]]
+
+[[Other Campus Study Sites]]
+
+
+:: Forms {"position":"1125,725","size":"100,100"}
+(link: "Financial Aid Forms")[(goto-url: 'https://finaid.utdallas.edu/forms/')]
+
+
+:: Help {"position":"675,425","size":"100,100"}
+(align:"=><=")+(box:"X=")[(text-style:"buoy")[How can I help you?]]
+
+[[Financial Aid]]
+
+[[Counseling]]
+
+[[Tutoring]]
+
+(link: "Degree Programs")[(goto-url:'https://soc.utdallas.edu/')]
+
+(link: "Clubs and Student Organizations")[(goto-url:'https://soc.utdallas.edu/')]
+
+[[Housing]]
+
+[[Scheduling]]
+
+(link: "Parking")[(goto-url:'https://soc.utdallas.edu/')]
+
+[[Map]]
+
+[[Scholarships]]
+
+[[Jobs]]
+
+
+
+
+:: Housing {"position":"175,550","size":"100,100"}
+Sure! There are several housing options on and off campus. Which would you like to know about?
+
+(link: "On-Campus")[(goto-url: 'https://cs.utdallas.edu/community/housing-and-dining/')]
+
+(link: "Off-Campus")[(goto-url:'https://roadwarriors.utdallas.edu/offcampus/')
+
+
+
+:: Jobs {"position":"1650,600","size":"100,100"}
+(link: "Find Jobs on Handshake")[(goto-url: 'https://utdallas.joinhandshake.com/login')]
+
+
+:: Library {"position":"1525,1050","size":"100,100"}
+(link: "Reserve a Library Study Room")[(goto-url: 'https://libcal.utdallas.edu/')]
+
+
+:: Map {"position":"1275,550","size":"100,100"}
+[[Find Study Room Locations]]
+
+[[Comet Cruiser]]
+
+[[UTD Campus Map]]
+
+
+
+
+
+:: Other Campus Study Sites {"position":"1650,1050","size":"100,100"}
+(link: "Study Rooms")[(goto-url: 'https://utdrooms.com/')]
+
+
+:: Scheduling {"position":"450,550","size":"100,100"}
+Access or change your schedule on the Galaxy Portal.
+
+(link: "Find on the Galaxy Portal")[(goto-url: 'https://www.utdallas.edu/galaxy/')]
+
+
+(link: "Find Your Academic Advisor")[(goto-url: 'https://oue.utdallas.edu/undergraduate-advising/ug-academic-advisors/')]
+
+
+:: Scholarships {"position":"25,550","size":"100,100"}
+Sure! What scholarships would you like to know about?
+
+(link: "Explore Scholarships")[(goto-url:'https://finaid.utdallas.edu/scholarships/')
+
+
+:: Tutoring {"position":"700,550","size":"100,100"}
+Several tutoring options are available at UTD.
+
+(link: "About Computer Science Mentor Center")[(goto-url: 'https://csmc.utdallas.edu/')]
+
+(link: "About Peer Tutoring")[(goto-url: 'https://studentsuccess.utdallas.edu/programs/peer-tutoring/')]
+
+
+:: UTD Campus Map {"position":"1275,925","size":"100,100"}
+(link: "UTD Campus Map")[(goto-url: 'https://map.utdallas.edu/')]
+
+
+:: Untitled Passage {"position":"675,300","size":"100,100"}
+(align:"=><=")+(box:"X=")[Hello, incoming freshman. Welcome to UTD. ]
+
+
+(live: 5s)[(go-to:"Help")]
+
+
+
+
+
+
+
+
+
